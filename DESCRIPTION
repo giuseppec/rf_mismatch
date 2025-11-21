@@ -1,0 +1,17 @@
+Package: rfmismatch
+Title: Random Forest Cross-Platform Reproducibility Testing
+Version: 0.1.0
+Authors@R: 
+    person("Giuseppe", "Casalicchio", email = "giuseppe.casalicchio@example.com", role = c("aut", "cre"))
+Description: This is not a full R package. This DESCRIPTION file is used solely
+    to document the R package dependencies required for the cross-platform
+    reproducibility experiment. The project tests whether Random Forest
+    predictions using the 'randomForest' and 'iml' packages produce consistent
+    results across Linux, macOS, and Windows platforms.
+Depends: 
+    R (>= 3.6.0)
+Imports:
+    randomForest,
+    iml
+Encoding: UTF-8
+License: MIT + file LICENSE
